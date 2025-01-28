@@ -7,6 +7,7 @@ import Tools from './Components/Tools'
 import Partner from './Components/Partner'
 import Blogs from './Components/Blogs'
 import Footer from './Components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
