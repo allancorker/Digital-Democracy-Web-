@@ -18,18 +18,20 @@ const Navbar = () => {
       <div className='flex lg:w-[80%] md:w-[100%]  mx-auto justify-between'>
           {/* Logo Div */}
         <div className='lg:'>
-          <img src={Logo} alt="Logo" className='absolute object-contain h-20 md:h-24 lg:h-28'/>
+          <a href="">
+            <img src={Logo} alt="Logo" className='absolute object-contain h-20 md:h-24 lg:h-28'/>
+          </a>
         </div>
 
         {/* Links Div */}
         <div className='text-white font-semibold ml-60 text-[18px]'>
           <ul className='md:flex hidden gap-8'>
-            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'>Our Work</li>
-            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'>Our Tools</li>
-            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'>Get Involved</li>
-            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'>About <FontAwesomeIcon icon={faChevronDown}/></li>
-            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'>Blog</li>
-            <li className='bg-orange-500 pt-14 pb-4 px-4 mr-2 border-none rounded-b-sm cursor-pointer'>Donate</li>
+            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'><a href="">Our Work</a></li>
+            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'><a href="">Our Tools</a></li>
+            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'><a href="">Get Involved</a></li>
+            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'><a href="">About</a> <FontAwesomeIcon icon={faChevronDown}/></li>
+            <li className='hover:border-b-4 pt-14 cursor-pointer duration-150 ease-in-out'><a href="">Blog</a></li>
+            <li className='bg-orange-500 pt-14 pb-4 px-4 mr-2 border-none rounded-b-sm cursor-pointer'><a href="">Donate</a></li>
           </ul>
         </div>
 
@@ -47,12 +49,12 @@ const Navbar = () => {
               </a> 
             </div>
             <ul className=''>
-              <li className='pt-28 hover:border-b w-[80px] cursor-pointer duration-300 ease-in-out'>Our Work</li>
-              <li className='pt-8 hover:border-b w-[80px] cursor-pointer duration-300 ease-in-out'>Our Tools</li>
-              <li className='pt-8 hover:border-b w-[105px] cursor-pointer duration3050 ease-in-out'>Get Involved</li>
-              <li className='pt-8 hover:border-b w-[75px] cursor-pointer duration-300 ease-in-out'>About <FontAwesomeIcon icon={faChevronDown}/></li>
-              <li className='pt-8 hover:border-b w-[40px] cursor-pointer duration-300 ease-in-out'>Blog</li>
-              <li className='pt-8 hover:border-b w-[65px] cursor-pointer duration-300 ease-in-out'>Donate</li>
+              <li className='pt-28 hover:border-b w-[80px] cursor-pointer duration-300 ease-in-out'><a href="">Our Work</a></li>
+              <li className='pt-8 hover:border-b w-[80px] cursor-pointer duration-300 ease-in-out'><a href="">Our Tools</a></li>
+              <li className='pt-8 hover:border-b w-[105px] cursor-pointer duration3050 ease-in-out'><a href="">Get Involved</a></li>
+              <li className='pt-8 hover:border-b w-[75px] cursor-pointer duration-300 ease-in-out'><a href="">About</a> <FontAwesomeIcon icon={faChevronDown}/></li>
+              <li className='pt-8 hover:border-b w-[40px] cursor-pointer duration-300 ease-in-out'><a href="">Blog</a></li>
+              <li className='pt-8 hover:border-b w-[65px] cursor-pointer duration-300 ease-in-out'><a href="">Donate</a></li>
             </ul>
 
         </div>
