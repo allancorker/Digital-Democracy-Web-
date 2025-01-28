@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Logo from '../assets/dd-logo.png'
 import HeroImg from '../assets/free-pexel-map.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faClose, faList} from '@fortawesome/free-solid-svg-icons'
+import { faBars, faChevronDown, faClose} from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
 
@@ -35,7 +35,7 @@ const Navbar = () => {
 
         {/* Responsive Menu / Side bar */}
         <div onClick={handleNav} className='cursor-pointer md:hidden py-10 pr-2'>
-          { nav ? <FontAwesomeIcon icon={faClose} className='text-white size-8'/> : <FontAwesomeIcon icon={faList} className='text-white size-8'/>}
+          { nav ? <FontAwesomeIcon icon={faClose} className='text-white size-8'/> : <FontAwesomeIcon icon={faBars} className='text-white size-8'/>}
         </div>
 
         <div className={ nav ? 'absolute text-white font-semibold text-[18px] left-0 top-0 w-[90%] h-[100%] pl-10 bg-blue-950 ease-in-out duration-500' : 'absolute left-[-100%]'}>
